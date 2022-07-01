@@ -23,7 +23,7 @@ def hijo(linea):
         lineas.append(valor.decode())
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     lineas = leer()
     r, w = os.pipe()
     for linea in lineas:
