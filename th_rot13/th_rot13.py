@@ -1,4 +1,4 @@
-import threading
+import threading as th
 import os
 import sys
 import codecs
