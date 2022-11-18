@@ -48,5 +48,9 @@ def main():
     matriz = calcular_matriz(matriz)
     imprimir_matriz(matriz)
 
+
+
+    
+
 if __name__ == "__main__":
     main()
