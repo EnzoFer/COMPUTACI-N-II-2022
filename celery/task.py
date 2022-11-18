@@ -1,14 +1,15 @@
+
+from celery_app import app
 from math import sqrt, log10
-from config import app
 
 @app.task
-def potencia(a):
-    return a**a
+def potencia(n):
+    return n**2
 
 @app.task
-def raiz(a):
-    return sqrt(a)
+def raiz(n):
+    return sqrt(n)
 
 @app.task
-def logaritmo(a):
-    return log10(a)
+def logaritmo(n):
+    return log10(n)
